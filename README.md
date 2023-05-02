@@ -26,7 +26,7 @@ Please consider citing the following paper if you use our methods in your resear
        ```
    - Training domain discriminators
       ```
-      # CUDA_VISIBLE_DEVICES=0 python train_discriminator.py --source_data_path './data/LIAR' --source_data_type 'liar' --target_data_path './data/Constraint' --target_data_type 'constraint';
+      CUDA_VISIBLE_DEVICES=0 python train_discriminator.py --source_data_path './data/LIAR' --source_data_type 'liar' --target_data_path './data/Constraint' --target_data_type 'constraint';
       CUDA_VISIBLE_DEVICES=0 python train_discriminator.py --source_data_path './data/LIAR' --source_data_type 'liar' --target_data_path './data/CoAID' --target_data_type 'coaid';
       CUDA_VISIBLE_DEVICES=0 python train_discriminator.py --source_data_path './data/LIAR' --source_data_type 'liar' --target_data_path './data/ANTiVax' --target_data_type 'antivax';
       ```
